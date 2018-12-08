@@ -1,0 +1,57 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    &__contents{
+        position: relative;
+        float: left;
+        width: 50rem;
+
+        &--61{
+            
+            .one{
+                left:95%;
+                bottom: 65%;
+            }
+            .six{
+                left:95%;
+                bottom: 15%;
+            }
+            .four{
+                left:55%;
+                bottom: 15%;
+            }
+            .fteen{
+                left:55%;
+                bottom: 65%;
+            }
+        }
+        &--btn{
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 1px solid black;
+            padding: 1.5rem 3.5rem;
+            background: white;
+            left: 65%;
+            bottom: 35%;
+            position: absolute;
+            border-radius: 1rem;
+            box-shadow: 0 0.7rem 1.8rem black;
+            color: green;
+            transition: all 1s;
+
+            &:hover{
+                background: green;
+                color: white;
+                transform: translateY(-.5rem);
+                box-shadow: 0 0.5rem 1.5rem black;
+        }
+        }
+
+        a{
+            font-size: 1.5rem;
+        }
+    }
+}

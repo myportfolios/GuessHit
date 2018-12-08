@@ -4,7 +4,8 @@
   "description": "",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/myportfolios/GuessHit/issues"
   },
-  "homepage": "https://github.com/myportfolios/GuessHit#readme"
+  "homepage": "https://github.com/myportfolios/GuessHit#readme",
+  "dependencies": {
+    "nodejs": "0.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
 }

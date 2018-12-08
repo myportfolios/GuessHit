@@ -1,0 +1,17 @@
+.container{
+
+
+    &__h1{
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    &__h3{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+    }
+}

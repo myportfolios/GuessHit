@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: red;
+  overflow-y: hidden; }
+
+.container__h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.container__h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  color: white; }
+
+/*
+.char{
+    float:left;
+}
+*/
+.u_numbs {
+  width: 5rem;
+  height: 5rem;
+  position: absolute; }
+
+.row {
+  width: 114rem;
+  margin: 0 auto; }
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+  .container__contents {
+    position: relative;
+    float: left;
+    width: 50rem; }
+    .container__contents--61 .one {
+      left: 95%;
+      bottom: 65%; }
+    .container__contents--61 .six {
+      left: 95%;
+      bottom: 15%; }
+    .container__contents--61 .four {
+      left: 55%;
+      bottom: 15%; }
+    .container__contents--61 .fteen {
+      left: 55%;
+      bottom: 65%; }
+    .container__contents--btn {
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid black;
+      padding: 1.5rem 3.5rem;
+      background: white;
+      left: 65%;
+      bottom: 35%;
+      position: absolute;
+      border-radius: 1rem;
+      box-shadow: 0 0.7rem 1.8rem black;
+      color: green;
+      transition: all 1s; }
+      .container__contents--btn:hover {
+        background: green;
+        color: white;
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0.5rem 1.5rem black; }
+    .container__contents a {
+      font-size: 1.5rem; }
+
+.musicBox {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  margin-top: 5rem; }
+  .musicBox__title {
+    font-size: 2.5rem; }
