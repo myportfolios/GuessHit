@@ -106,6 +106,10 @@ body {
     display: inline-block;
     padding: 2rem 0;
     margin: 2rem; }
+  .gameContainer__emoji {
+    display: none; }
+  .gameContainer__display {
+    font-size: 1.5rem; }
   .gameContainer__score-box {
     margin-bottom: 10rem; }
   .gameContainer__score {
@@ -160,3 +164,7 @@ body {
     .gameContainer__btn--game-over:hover {
       background: transparent;
       border: 1px solid blue; }
+
+/*.gameContainer__emoji{
+        display:none;
+    }*/

@@ -8,13 +8,19 @@
     text-align: center;
     margin-top: 25vh;
     position: relative;
+
     
     &__outcomes{
         display: inline-block;
         padding: 2rem 0;
         margin: 2rem;
     }
-
+    &__emoji{
+        display: none;
+    }
+    &__display{
+        font-size: 1.5rem;
+    }
     &__score-box{
         margin-bottom: 10rem;
     }
@@ -88,4 +94,6 @@
         }
         }
     }
-    
+    /*.gameContainer__emoji{
+        display:none;
+    }*/
