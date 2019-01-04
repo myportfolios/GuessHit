@@ -1,0 +1,13 @@
+//BORDER ANIMATION
+
+@keyframes borderBlink {
+    0%{
+      border-color:white;
+    }
+    50%{
+      border-color:blue;
+    }
+    100%{
+      border-color:green;
+    }
+  }
