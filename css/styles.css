@@ -24,11 +24,6 @@ body {
   text-align: center;
   color: white; }
 
-/*
-.char{
-    float:left;
-}
-*/
 .u_numbs {
   width: 5rem;
   height: 5rem;
@@ -43,6 +38,12 @@ body {
   animation: borderBlink 4s infinite;
   transition: all .2s; }
 
+.right {
+  background-image: url("../../images/img1right.png"); }
+
+.hide {
+  display: none; }
+
 @keyframes borderBlink {
   0% {
     border-color: white; }
@@ -51,6 +52,59 @@ body {
   100% {
     border-color: green; } }
 
+/* 
+   for(var i=0; i<numbsDOM.length; i++){
+       numbsDOM[0].addEventListener("click", function(){
+           //alert("clicked");
+           if(numbsDOM[0].textContent === numbShuffle[0].textContent){
+               alert("same");
+           }
+       })
+   }
+   
+
+
+ //without for loop
+ 
+    numbsDOM[0].addEventListener("click", function(){
+        //alert("clicked");
+        if(numbsDOM[0].textContent === numbShuffle[0].textContent){
+            alert("same");
+            scoreDisplay.textContent = score+= 5;
+        }
+    })
+    
+
+   for(var i=0; i<numbsDOM.length; i++){
+    numbsDOM[i].addEventListener("click", function(){
+        //alert("clicked");
+        if(this.numbsDOM[i].textContent === numbShuffle[0].textContent){
+            alert("same");
+            scoreDisplay.textContent = score+= 5;
+        }
+    })
+}
+*/
+/*
+for(var i=0; i<numbsDOM.length; i++){
+    numbsDOM[i].addEventListener("click", function(){
+        if(numbsDOM[i] === numbShuffle[0]){
+            alert("same!");
+        }
+    })
+}
+
+
+for(var i=0; i<numbsDOM.length; i++){
+    for(var i=0; i<numbShuffle.length; i++){
+        numbsDOM[i].addEventListener("click", function(){
+            if(numbsDOM[i] === numbShuffle[0]){
+                alert("same!");
+            }
+        })
+    }
+}
+*/
 .row {
   width: 114rem;
   margin: 0 auto; }
@@ -143,7 +197,8 @@ body {
     padding: 1rem 3rem;
     margin-right: 2rem;
     border: 1px solid black;
-    font-size: 3rem; }
+    font-size: 3rem;
+    cursor: pointer; }
   .gameContainer__controls {
     display: inline-block;
     width: 100%;

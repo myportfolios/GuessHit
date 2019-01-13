@@ -1,8 +1,4 @@
-/*
-.char{
-    float:left;
-}
-*/
+
 
 .u_numbs{
     width: 5rem;
@@ -19,4 +15,11 @@
 .u-active{
     animation: borderBlink 4s infinite;
     transition: all .2s;
+}
+
+.right{
+    background-image: url("../../images/img1right.png");
+}
+.hide{
+    display:none;
 }

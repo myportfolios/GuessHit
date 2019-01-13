@@ -1,0 +1,55 @@
+  /* 
+   for(var i=0; i<numbsDOM.length; i++){
+       numbsDOM[0].addEventListener("click", function(){
+           //alert("clicked");
+           if(numbsDOM[0].textContent === numbShuffle[0].textContent){
+               alert("same");
+           }
+       })
+   }
+   
+
+
+ //without for loop
+ 
+    numbsDOM[0].addEventListener("click", function(){
+        //alert("clicked");
+        if(numbsDOM[0].textContent === numbShuffle[0].textContent){
+            alert("same");
+            scoreDisplay.textContent = score+= 5;
+        }
+    })
+    
+
+   for(var i=0; i<numbsDOM.length; i++){
+    numbsDOM[i].addEventListener("click", function(){
+        //alert("clicked");
+        if(this.numbsDOM[i].textContent === numbShuffle[0].textContent){
+            alert("same");
+            scoreDisplay.textContent = score+= 5;
+        }
+    })
+}
+*/
+
+
+/*
+for(var i=0; i<numbsDOM.length; i++){
+    numbsDOM[i].addEventListener("click", function(){
+        if(numbsDOM[i] === numbShuffle[0]){
+            alert("same!");
+        }
+    })
+}
+
+
+for(var i=0; i<numbsDOM.length; i++){
+    for(var i=0; i<numbShuffle.length; i++){
+        numbsDOM[i].addEventListener("click", function(){
+            if(numbsDOM[i] === numbShuffle[0]){
+                alert("same!");
+            }
+        })
+    }
+}
+*/
